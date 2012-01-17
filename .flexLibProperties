@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="false" version="1">
+  <includeClasses>
+    <classEntry path="cl.huerta.pdf.PDFTemplate"/>
+    <classEntry path="cl.huerta.pdf.PDFi"/>
+    <classEntry path="cl.huerta.pdf.PDFParser"/>
+    <classEntry path="cl.huerta.pdf.decoders.ASCII85Decode"/>
+    <classEntry path="cl.huerta.pdf.PDFiPDFParser"/>
+    <classEntry path="cl.huerta.pdf.decoders.LZWDecode"/>
+    <classEntry path="cl.huerta.pdf.PDFContext"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
