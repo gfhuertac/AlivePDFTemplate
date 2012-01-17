@@ -8,11 +8,13 @@ To use it, you can use the following example as a reference, or check the FPDi w
 
 // Import a file!!!! Just set the source file to an existing PDF
 	var pagecount:Number = myPDF.setSourceFile(File.desktopDirectory.nativePath + File.separator + "FPDF_TPL-Manual-1.1.pdf" );
+
 // Import a page. The first argument is the page number, the second the way it will be imported
 	var tplidx:Number = myPDF.importPage(1, '/MediaBox'); 
 
 //This is important, you MUST add a page first!!!!
 	myPDF.addPage();
+
 //Use the template in the current page
 	myPDF.useTemplate(tplidx, 10, 10, 90);
 
@@ -30,3 +32,4 @@ To use it, you can use the following example as a reference, or check the FPDi w
 	var bytes : ByteArray = myPDF.save(Method.LOCAL);
 	f.writeBytes(bytes);
 	f.close();  
+
